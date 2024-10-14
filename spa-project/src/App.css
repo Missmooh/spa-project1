@@ -1,49 +1,40 @@
-nav a {
-  text-align: center;
-}
-/**/
-.homepage {
-  height: 40vmin;
-  pointer-events: none;
-}
-.homepage{
-  display: flex;
-  justify-content: space-around;
-  flex-direction: row;
-
+/* Set a custom font for the body */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #1f586e; /* white background */
+  color: #a08b2d; /* dark text */
 }
 
-.homepage li{
-  list-style-type: none;
+/* Style headings with a different color */
+h1 {
+  color: #6ab380; /* tomato */
+  font-weight: 600; /* bold */
 }
 
-
-
-.nelly {
-  background-color: #1b6147;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: rgb(23, 61, 40);
+h2 {
+  color: #262c64; /* green */
 }
 
-.nelly {
-  color: #438f69;
+/* Style links */
+a {
+  color: #1E90FF; /* dodgerblue */
+  text-decoration: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.about {
+  color: #FF4500; /* orange-red */
 }
 
+/* Add custom button styles */
+.home {
+  background-color: #008CBA; /* blue */
+  color: rgb(41, 82, 129);
+  border: none;
+  padding: 10px 20px;
+  font-size: 20px;
+  cursor: pointer;
+}
 
-*{
-  background-color: #32755c;
+.contact {
+  background-color: #005f73; /* darker blue */
 }

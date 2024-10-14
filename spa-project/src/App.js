@@ -5,7 +5,7 @@ import Navbar from './components/nav';  // Ensure this path is correct
 import Home from './components/home';           // Ensure this path is correct
 import About from './components/about';         // Ensure this path is correct
 import Contact from './components/contact';     // Ensure this path is correct
-//import './App.css';
+import './App.css';
 
 const App = () => {
   return (
